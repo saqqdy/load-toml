@@ -1,6 +1,6 @@
-[index.md - v1.0.0-beta.2](README.md) / Exports
+[index.md - v1.0.0](README.md) / Exports
 
-# index.md - v1.0.0-beta.2
+# index.md - v1.0.0
 
 ## Table of contents
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[index.ts:73](https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L73)
+[index.ts:88](https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L88)
 
 ## Functions
 
@@ -63,7 +63,7 @@ const data = await loadToml('/path/of/toml') // \{ "name": "saqqdy" \}
 
 #### Defined in
 
-[index.ts:46](https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L46)
+[index.ts:61](https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L61)
 
 ---
 
@@ -94,7 +94,7 @@ const data = loadTomlSync('/path/of/toml') // \{ "name": "saqqdy" \}
 
 #### Defined in
 
-[index.ts:65](https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L65)
+[index.ts:80](https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L80)
 
 ---
 
@@ -118,7 +118,7 @@ parse toml data
 
 #### Defined in
 
-[index.ts:11](https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L11)
+[index.ts:26](https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L26)
 
 ---
 
@@ -142,4 +142,4 @@ stringify toml data
 
 #### Defined in
 
-[index.ts:26](https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L26)
+[index.ts:41](https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L41)

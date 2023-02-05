@@ -1,6 +1,6 @@
 {
 	"id": 0,
-	"name": "index.md - v1.0.0-beta.2",
+	"name": "index.md - v1.0.0",
 	"kind": 1,
 	"kindString": "Project",
 	"flags": {},
@@ -15,9 +15,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 73,
+					"line": 88,
 					"character": 0,
-					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L73"
+					"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L88"
 				}
 			],
 			"type": {
@@ -38,9 +38,9 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 76,
+									"line": 91,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L76"
+									"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L91"
 								}
 							],
 							"type": {
@@ -54,9 +54,9 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 46,
+											"line": 61,
 											"character": 22,
-											"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L46"
+											"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L61"
 										}
 									],
 									"signatures": [
@@ -167,9 +167,9 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 77,
+									"line": 92,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L77"
+									"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L92"
 								}
 							],
 							"type": {
@@ -183,9 +183,9 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 65,
+											"line": 80,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L65"
+											"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L80"
 										}
 									],
 									"signatures": [
@@ -288,9 +288,9 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 74,
+									"line": 89,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L74"
+									"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L89"
 								}
 							],
 							"type": {
@@ -304,9 +304,9 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 11,
+											"line": 26,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L11"
+											"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L26"
 										}
 									],
 									"signatures": [
@@ -385,9 +385,9 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 75,
+									"line": 90,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L75"
+									"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L90"
 								}
 							],
 							"type": {
@@ -401,9 +401,9 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 26,
+											"line": 41,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L26"
+											"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L41"
 										}
 									],
 									"signatures": [
@@ -488,9 +488,9 @@
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 73,
+							"line": 88,
 							"character": 15,
-							"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L73"
+							"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L88"
 						}
 					]
 				}
@@ -505,9 +505,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 46,
+					"line": 61,
 					"character": 22,
-					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L46"
+					"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L61"
 				}
 			],
 			"signatures": [
@@ -616,9 +616,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 65,
+					"line": 80,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L65"
+					"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L80"
 				}
 			],
 			"signatures": [
@@ -719,9 +719,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 11,
+					"line": 26,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L11"
+					"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L26"
 				}
 			],
 			"signatures": [
@@ -798,9 +798,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 26,
+					"line": 41,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L26"
+					"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L41"
 				}
 			],
 			"signatures": [
@@ -891,7 +891,7 @@
 			"fileName": "index.ts",
 			"line": 1,
 			"character": 0,
-			"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L1"
+			"url": "https://github.com/saqqdy/load-toml/blob/7055254/src/index.ts#L1"
 		}
 	]
 }

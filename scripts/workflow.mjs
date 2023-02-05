@@ -22,9 +22,10 @@ const workflows = execSync(`gh workflow list --all`, {
 	.map(item => item.split('\t'))
 for (const [name, , id] of workflows) {
 	if (name === workflowPublishTest.name) {
-		execSync(`gh workflow ${IS_ENABLE ? 'enable' : 'disable'} ${id}`, {
-			stdio: 'inherit'
-		})
+		!(!IS_ENABLE && status !== 'active') &&
+			execSync(`gh workflow ${IS_ENABLE ? 'enable' : 'disable'} ${id}`, {
+				stdio: 'inherit'
+			})
 		break
 	}
 }

@@ -1,0 +1,12 @@
+{
+	"cSpell.words": [
+		"filesize",
+		"reinstaller",
+		"saqqdy",
+		"tscjs",
+		"tsnd",
+		"unpub",
+		"unpublish"
+	],
+	"typescript.tsdk": "node_modules/typescript/lib"
+}

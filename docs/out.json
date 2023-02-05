@@ -1,0 +1,897 @@
+{
+	"id": 0,
+	"name": "index.md - v1.0.0-beta.2",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "index.md",
+	"children": [
+		{
+			"id": 13,
+			"name": "default",
+			"kind": 32,
+			"kindString": "Variable",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 73,
+					"character": 0,
+					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L73"
+				}
+			],
+			"type": {
+				"type": "reflection",
+				"declaration": {
+					"id": 14,
+					"name": "__type",
+					"kind": 65536,
+					"kindString": "Type literal",
+					"flags": {},
+					"children": [
+						{
+							"id": 23,
+							"name": "loadToml",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 76,
+									"character": 1,
+									"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L76"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 24,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.ts",
+											"line": 46,
+											"character": 22,
+											"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L46"
+										}
+									],
+									"signatures": [
+										{
+											"id": 25,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "load .toml"
+													}
+												],
+												"blockTags": [
+													{
+														"tag": "@example",
+														"content": [
+															{
+																"kind": "code",
+																"text": "```ts\nimport { loadToml } from 'load-toml'\nconst data = await loadToml('/path/of/toml') // \\{ \"name\": \"saqqdy\" \\}\n```"
+															}
+														]
+													},
+													{
+														"tag": "@returns",
+														"content": [
+															{
+																"kind": "text",
+																"text": "- result"
+															}
+														]
+													}
+												]
+											},
+											"parameters": [
+												{
+													"id": 26,
+													"name": "path",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"summary": [
+															{
+																"kind": "text",
+																"text": "file path"
+															}
+														]
+													},
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"name": "URL",
+																"qualifiedName": "URL",
+																"package": "typescript"
+															},
+															{
+																"type": "reference",
+																"name": "Buffer",
+																"qualifiedName": "global.Buffer",
+																"package": "@types/node"
+															}
+														]
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "unknown"
+															},
+															{
+																"type": "literal",
+																"value": null
+															}
+														]
+													}
+												],
+												"name": "Promise",
+												"qualifiedName": "Promise",
+												"package": "typescript"
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 27,
+							"name": "loadTomlSync",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 77,
+									"character": 1,
+									"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L77"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 28,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.ts",
+											"line": 65,
+											"character": 16,
+											"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L65"
+										}
+									],
+									"signatures": [
+										{
+											"id": 29,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "load .toml sync"
+													}
+												],
+												"blockTags": [
+													{
+														"tag": "@example",
+														"content": [
+															{
+																"kind": "code",
+																"text": "```ts\nimport { loadTomlSync } from 'load-toml'\nconst data = loadTomlSync('/path/of/toml') // \\{ \"name\": \"saqqdy\" \\}\n```"
+															}
+														]
+													},
+													{
+														"tag": "@returns",
+														"content": [
+															{
+																"kind": "text",
+																"text": "- result"
+															}
+														]
+													}
+												]
+											},
+											"parameters": [
+												{
+													"id": 30,
+													"name": "path",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"summary": [
+															{
+																"kind": "text",
+																"text": "file path"
+															}
+														]
+													},
+													"type": {
+														"type": "union",
+														"types": [
+															{
+																"type": "intrinsic",
+																"name": "string"
+															},
+															{
+																"type": "reference",
+																"name": "URL",
+																"qualifiedName": "URL",
+																"package": "typescript"
+															},
+															{
+																"type": "reference",
+																"name": "Buffer",
+																"qualifiedName": "global.Buffer",
+																"package": "@types/node"
+															}
+														]
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "unknown"
+													},
+													{
+														"type": "literal",
+														"value": null
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 15,
+							"name": "parseToml",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 74,
+									"character": 1,
+									"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L74"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 16,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.ts",
+											"line": 11,
+											"character": 16,
+											"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L11"
+										}
+									],
+									"signatures": [
+										{
+											"id": 17,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "parse toml data"
+													}
+												],
+												"blockTags": [
+													{
+														"tag": "@returns",
+														"content": [
+															{
+																"kind": "text",
+																"text": "- result"
+															}
+														]
+													}
+												]
+											},
+											"parameters": [
+												{
+													"id": 18,
+													"name": "data",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"summary": [
+															{
+																"kind": "text",
+																"text": "file path"
+															}
+														]
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"name": "JsonMap",
+														"qualifiedName": "JsonMap",
+														"package": "@iarna/toml"
+													},
+													{
+														"type": "literal",
+														"value": null
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 19,
+							"name": "stringifyToml",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 75,
+									"character": 1,
+									"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L75"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 20,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.ts",
+											"line": 26,
+											"character": 16,
+											"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L26"
+										}
+									],
+									"signatures": [
+										{
+											"id": 21,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "stringify toml data"
+													}
+												],
+												"blockTags": [
+													{
+														"tag": "@returns",
+														"content": [
+															{
+																"kind": "text",
+																"text": "- result"
+															}
+														]
+													}
+												]
+											},
+											"parameters": [
+												{
+													"id": 22,
+													"name": "data",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"summary": [
+															{
+																"kind": "text",
+																"text": "file path"
+															}
+														]
+													},
+													"type": {
+														"type": "reference",
+														"name": "JsonMap",
+														"qualifiedName": "JsonMap",
+														"package": "@iarna/toml"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "literal",
+														"value": null
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"children": [
+								23,
+								27,
+								15,
+								19
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 73,
+							"character": 15,
+							"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L73"
+						}
+					]
+				}
+			}
+		},
+		{
+			"id": 7,
+			"name": "loadToml",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 46,
+					"character": 22,
+					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L46"
+				}
+			],
+			"signatures": [
+				{
+					"id": 8,
+					"name": "loadToml",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "load .toml"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```ts\nimport { loadToml } from 'load-toml'\nconst data = await loadToml('/path/of/toml') // \\{ \"name\": \"saqqdy\" \\}\n```"
+									}
+								]
+							},
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 9,
+							"name": "path",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"name": "URL",
+										"qualifiedName": "URL",
+										"package": "typescript"
+									},
+									{
+										"type": "reference",
+										"name": "Buffer",
+										"qualifiedName": "global.Buffer",
+										"package": "@types/node"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "unknown"
+									},
+									{
+										"type": "literal",
+										"value": null
+									}
+								]
+							}
+						],
+						"name": "Promise",
+						"qualifiedName": "Promise",
+						"package": "typescript"
+					}
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "loadTomlSync",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 65,
+					"character": 16,
+					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L65"
+				}
+			],
+			"signatures": [
+				{
+					"id": 11,
+					"name": "loadTomlSync",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "load .toml sync"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```ts\nimport { loadTomlSync } from 'load-toml'\nconst data = loadTomlSync('/path/of/toml') // \\{ \"name\": \"saqqdy\" \\}\n```"
+									}
+								]
+							},
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 12,
+							"name": "path",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"name": "URL",
+										"qualifiedName": "URL",
+										"package": "typescript"
+									},
+									{
+										"type": "reference",
+										"name": "Buffer",
+										"qualifiedName": "global.Buffer",
+										"package": "@types/node"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "unknown"
+							},
+							{
+								"type": "literal",
+								"value": null
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "parseToml",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 11,
+					"character": 16,
+					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L11"
+				}
+			],
+			"signatures": [
+				{
+					"id": 2,
+					"name": "parseToml",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "parse toml data"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 3,
+							"name": "data",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "reference",
+								"name": "JsonMap",
+								"qualifiedName": "JsonMap",
+								"package": "@iarna/toml"
+							},
+							{
+								"type": "literal",
+								"value": null
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "stringifyToml",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 26,
+					"character": 16,
+					"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L26"
+				}
+			],
+			"signatures": [
+				{
+					"id": 5,
+					"name": "stringifyToml",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "stringify toml data"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 6,
+							"name": "data",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"name": "JsonMap",
+								"qualifiedName": "JsonMap",
+								"package": "@iarna/toml"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "literal",
+								"value": null
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Variables",
+			"children": [
+				13
+			]
+		},
+		{
+			"title": "Functions",
+			"children": [
+				7,
+				10,
+				1,
+				4
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "index.ts",
+			"line": 1,
+			"character": 0,
+			"url": "https://github.com/saqqdy/load-toml/blob/87d9c22/src/index.ts#L1"
+		}
+	]
+}

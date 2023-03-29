@@ -477,12 +477,7 @@
 					"groups": [
 						{
 							"title": "Properties",
-							"children": [
-								23,
-								27,
-								15,
-								19
-							]
+							"children": [23, 27, 15, 19]
 						}
 					],
 					"sources": [
@@ -872,18 +867,11 @@
 	"groups": [
 		{
 			"title": "Variables",
-			"children": [
-				13
-			]
+			"children": [13]
 		},
 		{
 			"title": "Functions",
-			"children": [
-				7,
-				10,
-				1,
-				4
-			]
+			"children": [7, 10, 1, 4]
 		}
 	],
 	"sources": [

@@ -45,8 +45,7 @@
 		"prettier": "prettier --write \"**/*.{js,ts,jsx,tsx,yml,json,md}\""
 	},
 	"dependencies": {
-		"@iarna/toml": "^2.2.5",
-		"core-js": "^3.29.1"
+		"@iarna/toml": "^2.2.5"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.21.3",
@@ -62,6 +61,7 @@
 		"@types/jest": "^29.5.0",
 		"@types/node": "^18.15.11",
 		"chalk": "^5.2.0",
+		"core-js": "^3.29.1",
 		"coveralls": "^3.1.1",
 		"cross-env": "^7.0.3",
 		"eslint": "^8.37.0",

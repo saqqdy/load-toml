@@ -39,7 +39,6 @@ specifiers:
 
 dependencies:
   '@iarna/toml': 2.2.5
-  core-js: 3.29.1
 
 devDependencies:
   '@babel/core': 7.21.3
@@ -55,6 +54,7 @@ devDependencies:
   '@types/jest': 29.5.0
   '@types/node': 18.15.11
   chalk: 5.2.0
+  core-js: 3.29.1
   coveralls: 3.1.1
   cross-env: 7.0.3
   eslint: 8.37.0
@@ -3126,6 +3126,7 @@ packages:
   /core-js/3.29.1:
     resolution: {integrity: sha512-+jwgnhg6cQxKYIIjGtAHq2nwUOolo9eoFZ4sHfUH09BLXBgxnH4gA0zEd+t+BO2cNB8idaBtZFcFTRjQJRJmAw==}
     requiresBuild: true
+    dev: true
 
   /core-util-is/1.0.2:
     resolution: {integrity: sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==}

@@ -26,4 +26,5 @@ exclude_paths:
   - 'lib/**'
   - 'es/**'
   - 'dist/**'
+  - 'build/**'
   - 'scripts/**'
